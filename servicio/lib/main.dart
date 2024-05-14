@@ -14,9 +14,9 @@ final uid = FirebaseAuth.instance.currentUser?.uid;
 Future main() async{
   WidgetsFlutterBinding.ensureInitialized();
   if(kIsWeb){
-      await Firebase.initializeApp(options: const FirebaseOptions(apiKey: "AIzaSyAh9AWJVHYinZWGThGhqWQLoeViJKOmhO0",
-        appId: "1:376469018316:web:e6ce6dc7b7fb2c44ba9469",
-        messagingSenderId: "376469018316",
+      await Firebase.initializeApp(options: const FirebaseOptions(apiKey: "INSERT FIREBASE API KEY",
+        appId: "APP ID",
+        messagingSenderId: "ID MESSAGING SENDER",
         projectId: "servicio-e3883"));
   }
   await Firebase.initializeApp();
