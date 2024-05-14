@@ -109,7 +109,7 @@ class _Create_AdState extends State<Create_Ad> {
                                 GooglePlaceAutoCompleteTextField(
                                   textEditingController: _direccion,
                                   googleAPIKey:
-                                      "AIzaSyB_T-_oOzeMzp5b3COOWIs9_K08bGxayO0",
+                                      "INSERT GOOGLE CLOUD API KEY",
                                   inputDecoration: const InputDecoration(
                                       hintText: "Dirección",
                                       icon: Icon(Icons.pin_drop)),
