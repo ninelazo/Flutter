@@ -749,7 +749,7 @@ class _Search_pageState extends State<Search_page> {
                                     child: GooglePlaceAutoCompleteTextField(
                                       textEditingController: _direccion,
                                       googleAPIKey:
-                                          "AIzaSyB_T-_oOzeMzp5b3COOWIs9_K08bGxayO0",
+                                          "INSERT GOOGLE CLOUD API KEY",
                                       inputDecoration: const InputDecoration(
                                           hintText: "Tu dirección",
                                           icon: Icon(Icons.pin_drop)),
